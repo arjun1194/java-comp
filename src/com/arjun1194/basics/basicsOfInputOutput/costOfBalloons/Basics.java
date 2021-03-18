@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Basics {
     public static void main(String[] args) {
 
-        File file = new File("src/com/company/basicsOfInputOutput/costOfBalloons/input.txt");
+        File file = new File("src/com/company/basicsOfInputOutput/costOfBalloons/inp.txt");
         InputStream in = FileUtils.getStreamFromFile(file);
 
         Scanner scn = new Scanner(in);
